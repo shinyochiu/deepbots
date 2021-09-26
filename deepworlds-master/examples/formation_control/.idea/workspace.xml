@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89fc1dcb-efea-4ccc-802b-cb0d80e906e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/robot/robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/robot/robot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/supervisor/maddpg/policy/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/supervisor/maddpg/policy/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/supervisor/maddpg/policy/model_formation_navigation_7.ckpt.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/supervisor/maddpg/policy/model_formation_navigation_7.ckpt.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/supervisor/maddpg/policy/model_formation_navigation_7.ckpt.index" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/supervisor/maddpg/policy/model_formation_navigation_7.ckpt.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/supervisor/maddpg/policy/model_formation_navigation_7.ckpt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/supervisor/maddpg/policy/model_formation_navigation_7.ckpt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/supervisor/maddpg/trainer/ddpg.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/supervisor/maddpg/trainer/ddpg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/supervisor/models/policy/Actor_follower_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/supervisor/models/policy/Actor_follower_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/supervisor/models/policy/Actor_leader_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/supervisor/models/policy/Actor_leader_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/supervisor/models/policy/Critic_follower_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/supervisor/models/policy/Critic_follower_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/supervisor/models/policy/Critic_leader_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/supervisor/models/policy/Critic_leader_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/supervisor/models/policy/TargetActor_follower_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/supervisor/models/policy/TargetActor_follower_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/supervisor/models/policy/TargetActor_leader_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/supervisor/models/policy/TargetActor_leader_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/supervisor/models/policy/TargetCritic_follower_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/supervisor/models/policy/TargetCritic_follower_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/supervisor/models/policy/TargetCritic_leader_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/supervisor/models/policy/TargetCritic_leader_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/supervisor/supervisor.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/supervisor/supervisor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../robots/controllers/robot_emitter_receiver_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../robots/controllers/robot_emitter_receiver_csv.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1invk2mBjv0O8CluO3cIFladiNI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/北京清華/科研/開題/仿真環境/AirEnv" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="formation_control" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="Path" value="C:\Users\xinyouqiu\AppData\Local\Programs\Webots\lib\controller;C:\Users\xinyouqiu\AppData\Local\Programs\Webots\msys64\mingw64\bin;C:\Users\xinyouqiu\AppData\Local\Programs\Webots\msys64\mingw64\bin\cpp" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\xinyouqiu\Anaconda3\envs\RL3.7\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="deepbots" type="PythonConfigurationType" factoryName="Python">
+      <module name="formation_control" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="Path" value="C:\Users\xinyouqiu\AppData\Local\Programs\Webots\lib\controller;C:\Users\xinyouqiu\AppData\Local\Programs\Webots\msys64\mingw64\bin;C:\Users\xinyouqiu\AppData\Local\Programs\Webots\msys64\mingw64\bin\cpp" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89fc1dcb-efea-4ccc-802b-cb0d80e906e7" name="Default Changelist" comment="" />
+      <created>1602556309856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602556309856</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

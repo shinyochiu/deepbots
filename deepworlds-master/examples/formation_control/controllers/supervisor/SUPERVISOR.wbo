@@ -1,0 +1,56 @@
+#VRML_OBJ R2020b utf8
+DEF supervisor Robot {
+  children [
+    DEF emitter_0 Emitter {
+      name "emitter_0"
+      translationStep 0.1
+    }
+    DEF emitter_1 Emitter {
+      name "emitter_1"
+      translationStep 0.1
+      channel 1
+    }
+    DEF emitter_2 Emitter {
+      name "emitter_2"
+      translationStep 0.1
+      channel 2
+    }
+    DEF emitter_3 Emitter {
+      name "emitter_3"
+      translationStep 0.1
+      channel 3
+    }
+    DEF emitter_4 Emitter {
+      name "emitter_4"
+      translationStep 0.1
+      channel 4
+    }
+    DEF receiver_0 Receiver {
+      name "receiver_0"
+      translationStep 0.1
+    }
+    DEF receiver_1 Receiver {
+      name "receiver_1"
+      translationStep 0.1
+      channel 1
+    }
+    DEF receiver_2 Receiver {
+      name "receiver_2"
+      translationStep 0.1
+      channel 2
+    }
+    DEF receiver_3 Receiver {
+      name "receiver_3"
+      translationStep 0.1
+      channel 3
+    }
+    DEF receiver_4 Receiver {
+      name "receiver_4"
+      translationStep 0.1
+      channel 4
+    }
+  ]
+  name "supervisor"
+  controller "supervisor"
+  supervisor TRUE
+}

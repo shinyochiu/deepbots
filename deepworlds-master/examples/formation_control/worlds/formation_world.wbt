@@ -1,0 +1,433 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  info [
+    "Pioneer 3AT robot (Adept MobileRobots)."
+    "This all terrain four wheels drive robot is  equipped with a Sick LMS 291 lidar."
+    "It is programmed to perform a simple obstacle avoidance behavior based on the sensor data measured by the lidar."
+  ]
+  title "Pioneer 3AT"
+  coordinateSystem "NUE"
+  lineScale 0.5
+}
+Viewpoint {
+  orientation 0.9455381775856252 -0.3051896531936188 -0.11321144072757612 5.736998137890695
+  position 47.671555838792614 136.45974191151672 237.21205988235084
+  followSmoothness 0
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0.160255 -5.55112e-17 0.129082
+  floorSize 100 100
+  floorTileSize 3 3
+  floorAppearance SandyGround {
+  }
+  wallThickness 0.2
+  wallHeight 0.8
+  wallAppearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/gray_brick_wall.jpg"
+      ]
+    }
+    roughness 1
+    metalness 0
+    textureTransform TextureTransform {
+      scale 56 28
+    }
+  }
+}
+DEF OBSTACLE_1 Solid {
+  translation 16.8779 1 22.193
+  children [
+    DEF OBSTACLE_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.898039 0.898039 0.898039
+        baseColorMap ImageTexture {
+          url [
+            "textures/rock.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 1.5 1.5
+        }
+      }
+      geometry Cylinder {
+        radius 0.4
+        subdivision 20
+      }
+    }
+  ]
+  name "obstacle"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_2 Solid {
+  translation -6.11857 1 -18.7895
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(2)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_3 Solid {
+  translation 18.9919 1 -34.0342
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(3)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_4 Solid {
+  translation 38.3966 1 -17.9638
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(4)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_5 Solid {
+  translation -36.4026 1 10.0817
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(5)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_6 Solid {
+  translation -24.7639 1 -28.9781
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(6)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_7 Solid {
+  translation 41.6918 1 -33.4765
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(7)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_8 Solid {
+  translation -17.1359 1 26.2674
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(8)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_9 Solid {
+  translation -34.4979 1 38.6341
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(9)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_10 Solid {
+  translation 6.8463 1 33.3955
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(10)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_11 Solid {
+  translation -32.5038 1 -19.6033
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(11)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_12 Solid {
+  translation -20.3505 1 -12.0943
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(12)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_13 Solid {
+  translation -30.8897 1 31.5129
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(13)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_14 Solid {
+  translation -18.0108 1 -37.3057
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(14)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_15 Solid {
+  translation 42.9506 1 37.3907
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(15)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_16 Solid {
+  translation 18.5257 1 -2.39782
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(16)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_17 Solid {
+  translation 27.7738 1 4.70444
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(17)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_18 Solid {
+  translation 40.6241 1 3.51279
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(18)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_19 Solid {
+  translation 22.535 1 -15.9661
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(19)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_20 Solid {
+  translation 7.46326 1 -34.1116
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(20)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_21 Solid {
+  translation 15.5039 1 40.4743
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(21)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_22 Solid {
+  translation 35.109 1 41.3352
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(22)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_23 Solid {
+  translation -17.4806 1 8.40987
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(23)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_24 Solid {
+  translation 32.3859 1 -31.4659
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(24)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_25 Solid {
+  translation 29.0052 1 17.3717
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(25)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_26 Solid {
+  translation 40.8456 1 23.6114
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(26)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_27 Solid {
+  translation -1.83703 1 39.4917
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(27)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_28 Solid {
+  translation -32.3237 1 -1.34543
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(28)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_29 Solid {
+  translation -4.1332 1 -32.1458
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(29)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_30 Solid {
+  translation -26.4974 1 15.7696
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(30)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_31 Solid {
+  translation -4.48588 1 21.7297
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(31)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_32 Solid {
+  translation -41.1902 1 22.9044
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(32)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_33 Solid {
+  translation 31.7711 1 -7.27491
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(33)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_34 Solid {
+  translation -7.22118 1 -5.04018
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(34)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_35 Solid {
+  translation 25.9226 1 34.3971
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(35)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_36 Solid {
+  translation -17.7293 1 40.092
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(36)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_37 Solid {
+  translation 5.42691 1 -15.3295
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(37)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_38 Solid {
+  translation -39.2998 1 -37.7173
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(38)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_39 Solid {
+  translation 7.61618 1 11.9359
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(39)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF OBSTACLE_40 Solid {
+  translation -28.0377 1 -9.77742
+  children [
+    USE OBSTACLE_SHAPE
+  ]
+  name "obstacle(40)"
+  boundingObject USE OBSTACLE_SHAPE
+}
+DEF TARGET Solid {
+  translation 0 5 0
+  scale 10 10 10
+  children [
+    BallCandy {
+    }
+  ]
+  name "TARGET"
+}
+DEF supervisor Robot {
+  children [
+    DEF emitter_0 Emitter {
+      name "emitter_0"
+    }
+    DEF emitter_1 Emitter {
+      name "emitter_1"
+      channel 1
+    }
+    DEF emitter_2 Emitter {
+      name "emitter_2"
+      channel 2
+    }
+    DEF emitter_3 Emitter {
+      name "emitter_3"
+      channel 3
+    }
+    DEF emitter_4 Emitter {
+      name "emitter_4"
+      channel 4
+    }
+    DEF receiver_0 Receiver {
+      name "receiver_0"
+    }
+    DEF receiver_1 Receiver {
+      name "receiver_1"
+      channel 1
+    }
+    DEF receiver_2 Receiver {
+      name "receiver_2"
+      channel 2
+    }
+    DEF receiver_3 Receiver {
+      name "receiver_3"
+      channel 3
+    }
+    DEF receiver_4 Receiver {
+      name "receiver_4"
+      channel 4
+    }
+  ]
+  name "supervisor"
+  controller "supervisor"
+  supervisor TRUE
+}

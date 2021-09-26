@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94313a0e-0583-4cb1-9174-016903eb172c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/mavic2proController/mavic2proController.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/mavic2proController/mavic2proHelper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/mavic2proController/params.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/robot/robot.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/robot/robot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/maddpg/policy/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/maddpg/policy/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/maddpg/policy/model_formation_navigation_7.ckpt.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/maddpg/policy/model_formation_navigation_7.ckpt.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/maddpg/policy/model_formation_navigation_7.ckpt.index" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/maddpg/policy/model_formation_navigation_7.ckpt.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/maddpg/policy/model_formation_navigation_7.ckpt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/maddpg/policy/model_formation_navigation_7.ckpt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/maddpg/trainer/ddpg.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/maddpg/trainer/ddpg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/Actor_follower_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/Actor_follower_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/Actor_leader_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/Actor_leader_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/Critic_follower_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/Critic_follower_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/Critic_leader_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/Critic_leader_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/TargetActor_follower_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/TargetActor_follower_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/TargetActor_leader_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/TargetActor_leader_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/TargetCritic_follower_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/TargetCritic_follower_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/TargetCritic_leader_ddpg" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/models/policy/TargetCritic_leader_ddpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/supervisor.py" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/controllers/supervisor/supervisor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/worlds/.formation_world.wbproj" beforeDir="false" afterPath="$PROJECT_DIR$/deepworlds-master/examples/formation_control/worlds/.formation_world.wbproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots/controllers/robot_emitter_receiver_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/robots/controllers/robot_emitter_receiver_csv.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1inuLrgUhylTeExcr5aKb1g82eR" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94313a0e-0583-4cb1-9174-016903eb172c" name="Default Changelist" comment="" />
+      <created>1602555623360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602555623360</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

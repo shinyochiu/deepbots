@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:/Users/xinyouqiu/Anaconda3/envs/RL3.7/Lib/site-packages/deepbots/deepworlds-master/examples/formation_control/controllers/supervisor/maddpg/policy"
+all_model_checkpoint_paths: "C:/Users/xinyouqiu/Anaconda3/envs/RL3.7/Lib/site-packages/deepbots/deepworlds-master/examples/formation_control/controllers/supervisor/maddpg/policy"
